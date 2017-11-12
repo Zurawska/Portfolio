@@ -32,6 +32,7 @@ module.exports = function(grunt) {
                 ]
             },
             options: {
+                localOnly: true,
                 watchTask: true,
                 server: '.'
             }
