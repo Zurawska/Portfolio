@@ -25,7 +25,19 @@ body
     width: 100%
     z-index: 1
 
-    .navbar-nav
+    .navbar-toggle
+        border-color: #fff
+        margin-right: 5px
+
+        &:hover, &:focus
+            background-color: #fff
+
+        .icon-bar
+            background-color: #d7123d
+
+    .navbar-collapse
+        .navbar-nav
+            margin: 0 -15px
             li
                 text-transform: uppercase
                 text-decoration: underline
@@ -36,16 +48,6 @@ body
                     border: 2px solid #fff
                     color: #151515
                     transition: all 0.5s
-
-    .navbar-toggle
-        border-color: #fff
-        margin-right: 5px
-
-        &:hover, &:focus
-            background-color: #fff
-
-        .icon-bar
-            background-color: #d7123d
 
 .name
     text-align: center
@@ -59,7 +61,7 @@ body
 
 h4
     font-family: 'Marck Script', cursive
-    font-size: 20px
+    font-size: 22px
 
     &:after
         background-color: #000
